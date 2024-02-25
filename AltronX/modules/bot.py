@@ -23,7 +23,7 @@ async def ping(e):
         altron = await e.reply(f"»🕸4sᴛ 𝐎ɴ 𝐅ɪʀᴇ🔥", parse_mode=None, link_preview=None)
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"☞︎💫🥀 #_4st ʀᴇᴀᴅʏ ғᴏʀ #ғᴜᴄᴋɪɴɢ💦💘☜︎\n» `{mp} ms`")
+        await altron.edit(f"☞︎💫🥀 #HUNTER ʀᴇᴀᴅʏ ғᴏʀ #ғᴜᴄᴋɪɴɢ💦💘☜︎\n» `{mp} ms`")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -38,7 +38,112 @@ async def ping(e):
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"' 🥵 𝙾𝚈𝙴 𝚉𝙷𝙰𝚃𝚄..!! 𝙰𝚄𝚁 𝚃𝙷𝙾𝙳𝙰 𝙲𝙷𝙾𝙳𝙽𝙴 𝙳𝙴𝚃𝙰😤...'")
+        await e.reply(f"' 🥵 BHEN KE LODE TERI MA THODI CHUD RHI OFF KIYA...'")
+        try:
+            await MK1.disconnect()
+        except Exception:
+            pass
+        try:
+            await MK2.disconnect()
+        except Exception:
+            pass
+        try:
+            await MK3.disconnect()
+        except Exception:
+            pass
+        try:
+            await MK4.disconnect()
+        except Exception:
+            pass
+        try:
+            await MK5.disconnect()
+        except Exception:
+            pass
+        try:
+            await MK6.disconnect()
+        except Exception:
+            pass
+        try:
+            await MK7.disconnect()
+        except Exception:
+            pass
+        try:
+            await MK8.disconnect()
+        except Exception:
+            pass
+        try:
+            await MK9.disconnect()
+        except Exception:
+            pass
+        try:
+            await MK10.disconnect()
+        except Exception:
+            pass
+
+        os.execl(sys.executable, sys.executable, *sys.argv)
+        quit()
+        
+
+Heroku = heroku3.from_key(HEROKU_API_KEY)
+sudousers = os.environ.get("SUDO_USER", None)
+
+@MK1.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
+@MK2.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
+@MK3.on(evenimport os
+import sys
+import heroku3
+from datetime import datetime
+from config import MK1, MK2, MK3, MK4, MK5 , MK6, MK7, MK8, MK9, MK10, OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, CMD_HNDLR as hl
+from telethon.tl.functions.users import GetFullUserRequest
+from telethon import events
+
+
+@MK1.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@MK2.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@MK3.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@MK4.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@MK5.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+import os
+import sys
+import heroku3
+from datetime import datetime
+from config import MK1, MK2, MK3, MK4, MK5 , MK6, MK7, MK8, MK9, MK10, OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, CMD_HNDLR as hl
+from telethon.tl.functions.users import GetFullUserRequest
+from telethon import events
+
+
+@MK1.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@MK2.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@MK3.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@MK4.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@MK5.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@MK6.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@MK7.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@MK8.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@MK9.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@MK10.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+async def ping(e):
+    if e.sender_id in SUDO_USERS:
+        start = datetime.now()
+        altron = await e.reply(f"»🕸4sᴛ 𝐎ɴ 𝐅ɪʀᴇ🔥", parse_mode=None, link_preview=None)
+        end = datetime.now()
+        mp = (end - start).microseconds / 1000
+        await altron.edit(f"☞︎💫🥀ʜᴜɴᴛᴇʀ ɪꜱ ʀᴇᴀᴅy#ғᴜᴄᴋɪɴɢ💦💘☜︎\n» `{mp} ms`")
+
+
+@MK1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
+@MK2.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
+@MK3.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
+@MK4.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
+@MK5.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
+@MK6.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
+@MK7.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
+@MK8.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
+@MK9.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
+@MK10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
+async def restart(e):
+    if e.sender_id in SUDO_USERS:
+        await e.reply(f"' 🥵ʙʜᴇɴ ᴋᴇ ʟᴏᴅᴇ ᴛᴇʀɪ ᴍᴀ ᴄʜᴜᴅ ʀʜɪ ᴊᴏ ᴏꜰꜰ ᴋɪyᴀ😤...'")
         try:
             await MK1.disconnect()
         except Exception:
@@ -99,7 +204,7 @@ sudousers = os.environ.get("SUDO_USER", None)
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 async def addsudo(event):
     if event.sender_id == OWNER_ID:
-        ok = await event.reply(f"»😍𝙷𝚈𝙴𝙴..!!🤤 𝙼𝙸𝙻 𝙶𝙰𝚈𝙰 #_4𝚂𝚃 𝙺𝙰 𝙰𝚄𝚁 𝙴𝙺 𝙱𝙴𝚃𝙰🤣")
+        ok = await event.reply(f"»😍𝙷𝚈𝙴𝙴..!!🤤 𝙼𝙸𝙻 𝙶𝙰𝚈𝙰 ʜᴜɴᴛᴇʀ  𝙺𝙰 𝙰𝚄𝚁 𝙴𝙺 𝙱𝙴𝚃𝙰🤣")
         mks = "SUDO_USER"
         target = ""
         if HEROKU_APP_NAME is not None:
