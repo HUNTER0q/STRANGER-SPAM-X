@@ -12,7 +12,7 @@ PythonButton = [
         Button.url("💢𝐒υρρσя𝐓💞", "https://t.me/ll4st_opII")
         ],
         [
-        Button.url("💘‌🇴𝐖𝐍𝐄𝐑🌸", "https://t.me/ll4st_MIND_GAMERII")
+        Button.url("💘‌🇴𝐖𝐍𝐄𝐑🌸", "https://t.me/PAPA_HUNTER")
         ]
         ]
 
@@ -34,7 +34,7 @@ async def start(event):
         BotName = AltBot.first_name
         BotId = AltBot.id
         TEXT = f"**𝐇𝐞𝐲 [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n𝐈 𝐀𝐦 [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **🕸‌🇩‌🇪‌🇻💟 :~ [4ST 𝐅ʏᴛᴇʀ](https://t.me/ll4st_MIND_GAMERII)**\n\n"
+        TEXT += f"» **🕸‌🇩‌🇪‌🇻💟 :~ [4ST 𝐅ʏᴛᴇʀ](https://t.me/PAPA_HUNTER)**\n\n"
         TEXT += f"» **4ST 𝐒𝐏𝐀𝐌 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `3.2`\n"
         TEXT += f"» **𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍:** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
